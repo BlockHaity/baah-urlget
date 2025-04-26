@@ -1,6 +1,5 @@
 package blockhaity.baah.urlget;
 
-import android.Manifest;
 import android.app.Activity;
 import android.app.role.RoleManager;
 import android.content.Intent;
@@ -12,12 +11,11 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.Settings;
 import android.widget.Toast;
-import androidx.annotation.NonNull;
+
 import androidx.annotation.Nullable;
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
